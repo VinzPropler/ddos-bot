@@ -3,7 +3,7 @@ import os
 import time
 from discord.ext import commands
 
-owners  = [885830821704003614, 795595550850023485]
+owners  = [1013372760631803985, 795595550850023485]
 
 client = commands.Bot(command_prefix=">", help_command=None)
 
@@ -54,4 +54,4 @@ async def methods(ctx):
     )
     await ctx.reply(embed=embed)
 
-client.run("YOUR TOKEN", bot=True)
+client.run("MTAxMzM3MTgwMzM3NDE5MDU5Mg.G7gOZi.fPrs100Q7qSyVjigJdiQi-9EkyszcNFT5lC4zI", bot=True)
